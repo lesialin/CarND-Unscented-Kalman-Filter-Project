@@ -60,33 +60,54 @@ OUTPUT: values provided by the c++ program to the simulator
 4. Run it: `./UnscentedKF` Previous versions use i/o from text files.  The current state uses i/o
 from the simulator.
 
-## Editor Settings
 
-We've purposefully kept editor configuration files out of this repo in order to
-keep it as simple and environment agnostic as possible. However, we recommend
-using the following settings:
 
-* indent using spaces
-* set tab width to 2 spaces (keeps the matrices in source code aligned)
+## Usage
 
-## Code Style
+To collect the lidar and radar NIS data, I printed out NIS, so please run:
 
-Please stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html) as much as possible.
+`./run_UKF.sh` 
 
-## Generating Additional Data
+and you would have NIS_data.txt includes NIS data, like:
 
-This is optional!
+```
+Listening to port 4567
+Connected!!!
+NIS_lidar_:0
+NIS_radar_:74.7305
+NIS_lidar_:0.221107
+NIS_radar_:1.82484
+NIS_lidar_:0.167578
+NIS_radar_:7.73721
+NIS_lidar_:0.254479
+NIS_radar_:6.36418
+NIS_lidar_:0.00909994
+NIS_radar_:0.449607
+NIS_lidar_:1.21329
+NIS_radar_:1.25664
+NIS_lidar_:2.05786
+NIS_radar_:4.17697
+NIS_lidar_:0.386582
+NIS_radar_:2.18104
+NIS_lidar_:13.1949
+NIS_radar_:2.18365
+NIS_lidar_:2.31222
+NIS_radar_:1.67749
+NIS_lidar_:1.50073
+NIS_radar_:3.88797
+NIS_lidar_:4.12155
+NIS_radar_:0.859891
+```
 
-If you'd like to generate your own radar and lidar data, see the
-[utilities repo](https://github.com/udacity/CarND-Mercedes-SF-Utilities) for
-Matlab scripts that can generate additional data.
+To plot NIS data with the limitation, please run:
 
-## Project Instructions and Rubric
+`./plot_NIS.sh`
 
-This information is only accessible by people who are already enrolled in Term 2
-of CarND. If you are enrolled, see [the project page](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/c3eb3583-17b2-4d83-abf7-d852ae1b9fff/concepts/f437b8b0-f2d8-43b0-9662-72ac4e4029c1)
-for instructions and the project rubric.
+then, you would get  figures NIS_lidar.png, and NIS_radar.png, like
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+
+
+![](/home/lesia/CarND-Term2/CarND-Unscented-Kalman-Filter-Project/build/NIS_radar.png)
+
+![](/home/lesia/CarND-Term2/CarND-Unscented-Kalman-Filter-Project/build/NIS_lidar.png)
 
