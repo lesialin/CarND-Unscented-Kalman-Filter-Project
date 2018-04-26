@@ -105,9 +105,13 @@ To plot NIS data with the limitation, please run:
 
 then, you would get  figures NIS_lidar.png, and NIS_radar.png, like
 
+<<<<<<< HEAD
 
 
 ![](scripts/NIS_radar.png)
+=======
+![](build/NIS_radar.png)
+>>>>>>> e7f5dc9aac850eda9758ee98fbfcffcee289bfc2
 
 ![](scripts/NIS_lidar.png)
 
