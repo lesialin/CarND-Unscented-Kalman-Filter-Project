@@ -107,7 +107,7 @@ then, you would get  figures NIS_lidar.png, and NIS_radar.png, like
 
 
 
-![](build/NIS_radar.png)
+![](scripts/NIS_radar.png)
 
-![](build/NIS_lidar.png)
+![](scripts/NIS_lidar.png)
 
