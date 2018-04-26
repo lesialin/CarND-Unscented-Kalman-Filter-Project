@@ -107,7 +107,7 @@ then, you would get  figures NIS_lidar.png, and NIS_radar.png, like
 
 
 
-![](/home/lesia/CarND-Term2/CarND-Unscented-Kalman-Filter-Project/build/NIS_radar.png)
+![](build/NIS_radar.png)
 
-![](/home/lesia/CarND-Term2/CarND-Unscented-Kalman-Filter-Project/build/NIS_lidar.png)
+![](build/NIS_lidar.png)
 
